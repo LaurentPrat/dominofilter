@@ -1,0 +1,3 @@
+laurentprat1 = Laurent Prat <laurent.prat@mailwatcher.net>
+lpr = Laurent Prat <laurent.prat@mailwatcher.net>
+

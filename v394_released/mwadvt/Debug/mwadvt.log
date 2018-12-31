@@ -1,0 +1,41 @@
+﻿Build started 11/02/2013 11:55:06.
+     1>Project "D:\LPDEV\MailWatcher_Filter_394\mwadvt\mwadvt.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\mwadvt.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\mwadvt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\notesapi_65\notesapi\include /ZI /nologo /W3 /WX- /Od /Oy- /D W32 /D VERBOSE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0700 /D _MBCS /Gm- /EHsc /RTC1 /MTd /Zp1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\hnote2skip.c ..\mwadvt.c ..\mwhotspot.c ..\mwlist.c ..\mwstrjob.c ..\rulesmem.c ..\wildcard.c
+         hnote2skip.c
+         mwadvt.c
+         mwhotspot.c
+     1>d:\notesapi_65\notesapi\include\global.h(325): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sdkddkver.h(197) : see previous definition of '_WIN32_WINNT'
+         mwlist.c
+         mwstrjob.c
+         rulesmem.c
+         wildcard.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _VC80_UPGRADE=0x0700 /l"0x0409" /nologo /fo"Debug\mwadvt.res" ..\mwadvt.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\nmwadvt.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\notesapi_503\notesapi\lib\mswin32 notes.lib notesai0.obj notes0.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\nmwadvt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\mwadvt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\nmwadvt.lib" /MACHINE:X86 Debug\mwadvt.res
+         Debug\hnote2skip.obj
+         Debug\mwadvt.obj
+         Debug\mwhotspot.obj
+         Debug\mwlist.obj
+         Debug\mwstrjob.obj
+         Debug\rulesmem.obj
+         Debug\wildcard.obj
+     1>hnote2skip.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         mwadvt.vcxproj -> D:\LPDEV\MailWatcher_Filter_394\mwadvt\Debug\nmwadvt.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Debug\nmwadvt.exe;#1" /manifest Debug\nmwadvt.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\mwadvt.unsuccessfulbuild".
+         Touching "Debug\mwadvt.lastbuildstate".
+     1>Done Building Project "D:\LPDEV\MailWatcher_Filter_394\mwadvt\mwadvt.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57

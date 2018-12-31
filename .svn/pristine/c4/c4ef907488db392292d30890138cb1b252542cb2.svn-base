@@ -1,0 +1,40 @@
+﻿Build started 11/02/2013 11:55:02.
+     1>Project "D:\LPDEV\MailWatcher_Filter_394\mwadvt\mwadvt.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\mwadvt.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\mwadvt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\notesapi_65\notesapi\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D W32 /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0700 /D _MBCS /GF /Gm- /EHsc /MT /Zp1 /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\hnote2skip.c ..\mwadvt.c ..\mwhotspot.c ..\mwlist.c ..\mwstrjob.c ..\rulesmem.c ..\wildcard.c
+         hnote2skip.c
+         mwadvt.c
+         mwhotspot.c
+     1>D:\notesapi_65\notesapi\include\global.h(325): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h(197) : see previous definition of '_WIN32_WINNT'
+         mwlist.c
+         mwstrjob.c
+         rulesmem.c
+         wildcard.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _VC80_UPGRADE=0x0700 /l"0x0409" /nologo /fo"Release\mwadvt.res" ..\mwadvt.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\nmwadvt.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\notesapi_503\notesapi\lib\mswin32 notes.lib notesai0.obj notes0.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\nmwadvt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\LPDEV\MailWatcher_Filter_394\mwadvt\Release\nmwadvt.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release\nmwadvt.lib" /MACHINE:X86 Release\mwadvt.res
+         Release\hnote2skip.obj
+         Release\mwadvt.obj
+         Release\mwhotspot.obj
+         Release\mwlist.obj
+         Release\mwstrjob.obj
+         Release\rulesmem.obj
+         Release\wildcard.obj
+         mwadvt.vcxproj -> D:\LPDEV\MailWatcher_Filter_394\mwadvt\Release\nmwadvt.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\nmwadvt.exe;#1" /manifest Release\nmwadvt.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\mwadvt.unsuccessfulbuild".
+         Touching "Release\mwadvt.lastbuildstate".
+     1>Done Building Project "D:\LPDEV\MailWatcher_Filter_394\mwadvt\mwadvt.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.87

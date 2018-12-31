@@ -1,0 +1,95 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: nmwadvt, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Environment Space
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>    ALLUSERSPROFILE=C:\Documents and Settings\All Users
+    APPDATA=C:\Documents and Settings\Laurent\Application Data
+    CLASSPATH=.;C:\Program Files\Java\jre1.5.0\lib\ext\QTJava.zip
+    CLIENTNAME=Console
+    CommonProgramFiles=C:\Program Files\Fichiers communs
+    COMPUTERNAME=LAURENTPRATTOSH
+    ComSpec=C:\WINDOWS\system32\cmd.exe
+    FP_NO_HOST_CHECK=NO
+    HOMEDRIVE=C:
+    HOMEPATH=\Documents and Settings\Laurent
+    INCLUDE=C:\Program Files\Microsoft Visual Studio .NET\Vc7\include;C:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include;C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include\prerelease;C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include;C:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\include
+    LANG=fr
+    LIB=C:\Program Files\Microsoft Visual Studio .NET\Vc7\lib;C:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\lib;C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib\prerelease;C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib;C:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\lib
+    LIBPATH=
+    LOGONSERVER=\\LAURENTPRATTOSH
+    MAKEMSI_DB_COMPARE_TEMPLATE.MSI=C:\Program Files\MakeMsi\UiSample.MSI
+    MAKEMSI_DIR=C:\Program Files\MakeMsi\
+    MAKEMSI_MSIVAL2_DIR=C:\Program Files\MSIVAL2
+    MSDevDir=C:\Program Files\DevStudio\SharedIDE
+    NOTES_HOME=C:\LotusV6\notes\data
+    NUMBER_OF_PROCESSORS=1
+    OS=Windows_NT
+    Path=C:\Program Files\Microsoft Visual Studio .NET\Vc7\bin;C:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin\prerelease;C:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin;C:\Program Files\Microsoft Visual Studio .NET\Common7\tools;C:\Program Files\Microsoft Visual Studio .NET\Common7\ide;C:\Program Files\HTML Help Workshop\;C:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\bin;C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.4mm
+    PPWIZARD_INCLUDE=C:\Program Files\MakeMsi\
+    PPWIZARD_TEST_REGINA_VER=3.3(JULIAN)(MT)
+    PROCESSOR_ARCHITECTURE=x86
+    PROCESSOR_IDENTIFIER=x86 Family 6 Model 13 Stepping 8, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=0d08
+    ProgramFiles=C:\Program Files
+    QTJAVA=C:\Program Files\Java\jre1.5.0\lib\ext\QTJava.zip
+    REGINA_MACROS=C:\Program Files\MakeMsi\
+    SESSIONNAME=Console
+    SystemDrive=C:
+    SystemRoot=C:\WINDOWS
+    TEMP=C:\DOCUME~1\Laurent\LOCALS~1\Temp
+    TMP=C:\DOCUME~1\Laurent\LOCALS~1\Temp
+    USERDOMAIN=LAURENTPRATTOSH
+    USERNAME=Laurent
+    USERPROFILE=C:\Documents and Settings\Laurent
+    VSCOMNTOOLS="C:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\"
+    windir=C:\WINDOWS
+    _ACP_ATLPROV=C:\Program Files\Microsoft Visual Studio .NET\Vc7\bin\ATLPROV.DLL
+    _ACP_INCLUDE=D:\notesapi_503\notesapi\include;C:\Program Files\Microsoft Visual Studio .NET\Vc7\include;C:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include;C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include\prerelease;C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include;C:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\include
+    _ACP_LIB=C:\Program Files\Microsoft Visual Studio .NET\Vc7\lib;C:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\lib;C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib\prerelease;C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib;C:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\lib;D:\notesapi_503\notesapi\include;C:\Program Files\Microsoft Visual Studio .NET\Vc7\include;C:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include;C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include\prerelease;C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include;C:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\include
+    _ACP_PATH=C:\Program Files\Microsoft Visual Studio .NET\Vc7\bin;C:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin\prerelease;C:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin;C:\Program Files\Microsoft Visual Studio .NET\Common7\tools;C:\Program Files\Microsoft Visual Studio .NET\Common7\ide;C:\Program Files\HTML Help Workshop\;C:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\bin;C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "d:\LPDEV\MailWatcher Advanced 3.93\v393_released\nmwadvt\Debug\RSP000005.rsp" with contents
+[
+/Od /I "D:\notesapi_503\notesapi\include" /D "W32" /D "_MBCS" /Gm /EHsc /RTC1 /MLd /Zp1 /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TC
+"\LPDEV\MailWatcher Advanced 3.93\v393_released\wildcard.c"
+"\LPDEV\MailWatcher Advanced 3.93\v393_released\mwlist.c"
+"\LPDEV\MailWatcher Advanced 3.93\v393_released\hnote2skip.c"
+"\LPDEV\MailWatcher Advanced 3.93\v393_released\mwadvt.c"
+]
+Creating command line "cl.exe @"d:\LPDEV\MailWatcher Advanced 3.93\v393_released\nmwadvt\Debug\RSP000005.rsp" /nologo"
+Creating temporary file "d:\LPDEV\MailWatcher Advanced 3.93\v393_released\nmwadvt\Debug\RSP000006.rsp" with contents
+[
+/OUT:"Debug/nmwadvt.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\notesapi_503\notesapi\lib\mswin32" /DEBUG /PDB:"Debug/nmwadvt.pdb" /SUBSYSTEM:CONSOLE /MACHINE:IX86 notes.lib notes0.obj notesai0.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "\notesapi_503\notesapi\lib\mswin32\notes.lib"
+"Debug\mwadvt.obj"
+"Debug\hnote2skip.obj"
+"Debug\mwlist.obj"
+"Debug\wildcard.obj"
+]
+Creating command line "link.exe @"d:\LPDEV\MailWatcher Advanced 3.93\v393_released\nmwadvt\Debug\RSP000006.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+wildcard.c
+mwlist.c
+hnote2skip.c
+mwadvt.c
+Generating Code...
+Linking...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://d:\LPDEV\MailWatcher Advanced 3.93\v393_released\nmwadvt\Debug\BuildLog.htm"
+nmwadvt - 0 error(s), 0 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

@@ -1,0 +1,661 @@
+﻿Build started 11/02/2013 11:55:04.
+     1>Project "D:\LPDEV\MailWatcher_Filter_394\mwadvt\mwadvt.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\mwadvt.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "x64\Debug\mwadvt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\notesapi_801_64bits\include /Zi /nologo /W3 /WX- /Od /D W64 /D W32 /D ND64 /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MTd /GS /fp:fast /Zc:wchar_t- /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt ..\hnote2skip.c ..\mwadvt.c ..\mwhotspot.c ..\mwlist.c ..\mwstrjob.c ..\rulesmem.c ..\wildcard.c
+         hnote2skip.c
+         mwadvt.c
+     1>..\mwadvt.c(1465): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(1465): warning C4024: 'AddInQueryDefaults' : different types for formal and actual parameter 2
+     1>..\mwadvt.c(1466): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(1466): warning C4024: 'AddInDeleteStatusLine' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(1468): warning C4047: '=' : 'HANDLE' differs in levels of indirection from 'DHANDLE'
+     1>..\mwadvt.c(1469): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(1469): warning C4024: 'AddInSetDefaults' : different types for formal and actual parameter 2
+     1>..\mwadvt.c(1751): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(1751): warning C4024: 'NSFDbGetModifiedNoteTable' : different types for formal and actual parameter 5
+     1>..\mwadvt.c(1767): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(1767): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(1777): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(1777): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(1794): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(1794): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(1805): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(1805): warning C4024: 'IDEntries' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(1812): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(1812): warning C4024: 'IDScan' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(1818): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(1818): warning C4024: 'IDIsPresent' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2368): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2368): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2369): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2369): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2539): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(2539): warning C4024: 'NIFReadEntries' : different types for formal and actual parameter 8
+     1>..\mwadvt.c(2542): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2542): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2560): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2560): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2566): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2566): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2567): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2567): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2845): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2845): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2846): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2846): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2861): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2861): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2862): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2862): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2884): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2884): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2885): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2885): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2902): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2902): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2903): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2903): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2931): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2931): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2932): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2932): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2964): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2964): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2965): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2965): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2992): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2992): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(2993): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(2993): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3025): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3025): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3026): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3026): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3057): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3057): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3058): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3058): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3096): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3096): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3097): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3097): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3136): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3136): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3137): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3137): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3182): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3182): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3183): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3183): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3228): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3228): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3229): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3229): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3281): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3281): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3282): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3282): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3341): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3341): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3342): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3342): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3421): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(3421): warning C4024: 'NSFRemoteConsole' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(3434): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3434): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3444): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3444): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3445): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3445): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3815): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(3815): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(3819): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3819): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3821): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3821): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3834): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3834): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3841): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3841): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3846): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3846): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3847): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3847): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3964): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(3964): warning C4024: 'NIFReadEntries' : different types for formal and actual parameter 8
+     1>..\mwadvt.c(3967): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3967): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3974): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3974): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3977): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3977): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3978): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3978): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(3999): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(3999): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4000): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4000): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4317): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(4317): warning C4024: 'NIFReadEntries' : different types for formal and actual parameter 8
+     1>..\mwadvt.c(4323): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4323): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4335): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4335): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4339): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4339): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4340): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4340): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4375): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4375): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4378): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4378): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4397): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4397): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4400): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4400): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4431): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4431): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4434): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4434): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4591): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4591): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4594): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4594): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4938): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4938): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(4941): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(4941): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5170): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(5170): warning C4024: 'NIFReadEntries' : different types for formal and actual parameter 8
+     1>..\mwadvt.c(5173): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5173): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5182): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5182): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5188): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5188): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5192): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5192): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5193): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5193): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5202): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5202): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5203): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5203): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5386): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(5386): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(5398): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5398): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5403): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5403): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5417): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5417): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5424): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5424): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5442): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5442): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5449): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5449): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5455): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5455): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5459): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5459): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5541): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(5541): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(5545): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5545): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5546): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5546): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5552): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5552): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5553): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5553): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5597): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(5597): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(5602): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5602): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5607): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5607): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5612): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5612): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5614): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5614): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5619): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5619): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5623): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5623): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5635): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(5635): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(5639): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5639): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5644): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5644): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5655): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5655): warning C4024: 'CompoundTextAddTextExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5664): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5664): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5683): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5683): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5690): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5690): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5696): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5696): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(5700): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(5700): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(6814): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(6814): warning C4024: 'NIFReadEntries' : different types for formal and actual parameter 8
+     1>..\mwadvt.c(6829): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(6829): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(6838): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(6838): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7385): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7385): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7388): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7388): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7572): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(7572): warning C4024: 'NIFReadEntries' : different types for formal and actual parameter 8
+     1>..\mwadvt.c(7576): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7576): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7588): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7588): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7592): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7592): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7593): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7593): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7648): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7648): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7649): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7649): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7683): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(7683): warning C4024: 'NAMELookup2' : different types for formal and actual parameter 9
+     1>..\mwadvt.c(7686): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7686): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7695): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7695): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7699): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7699): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7700): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7700): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7767): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7767): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7768): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7768): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7818): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(7818): warning C4024: 'NAMELookup' : different types for formal and actual parameter 9
+     1>..\mwadvt.c(7821): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7821): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7828): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7828): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7832): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7832): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7833): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7833): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7857): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7857): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(7858): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(7858): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8309): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(8309): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(8331): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8331): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8343): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8343): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8345): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8345): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8356): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8356): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8358): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8358): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8371): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8371): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8373): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8373): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8388): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8388): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8400): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8400): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8402): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8402): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8429): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8429): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8435): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8435): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8437): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8437): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8442): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8442): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8443): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8443): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8629): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(8629): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(8634): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8634): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8636): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8636): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8659): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8659): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8672): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8672): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8674): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8674): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8685): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8685): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8687): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8687): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8707): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8707): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8709): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8709): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8731): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8731): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8738): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8738): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8755): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8755): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8767): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8767): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8769): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8769): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8795): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8795): warning C4024: 'CompoundTextAssimilateItem' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8797): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8797): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8810): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8810): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(8811): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(8811): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9561): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9561): warning C4024: 'CompoundTextAddDocLink' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9563): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9563): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9603): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9603): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9608): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9608): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9620): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9620): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9627): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9627): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9634): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9634): warning C4024: 'CompoundTextAddDocLink' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9636): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9636): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9647): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9647): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9654): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9654): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(9687): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(9687): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10066): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(10066): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(10071): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10071): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10073): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10073): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10087): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10087): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10094): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10094): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10116): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10116): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10123): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10123): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10133): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10133): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10134): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10134): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10437): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10437): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10466): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10466): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10482): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10482): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10496): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10496): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10512): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10512): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10528): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10528): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10547): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10547): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10564): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10564): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10726): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(10726): warning C4024: 'NAMELookup' : different types for formal and actual parameter 9
+     1>..\mwadvt.c(10729): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10729): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10735): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10735): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10739): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10739): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10740): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10740): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10773): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10773): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(10774): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(10774): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11013): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(11013): warning C4024: 'NAMELookup' : different types for formal and actual parameter 9
+     1>..\mwadvt.c(11016): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11016): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11027): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11027): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11031): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11031): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11032): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11032): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11048): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11048): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11049): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11049): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11069): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11069): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11070): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11070): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11247): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(11247): warning C4024: 'IDCreateTable' : different types for formal and actual parameter 2
+     1>..\mwadvt.c(11252): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11252): warning C4024: 'IDInsert' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11254): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11254): warning C4024: 'FolderDocAdd' : different types for formal and actual parameter 4
+     1>..\mwadvt.c(11260): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11260): warning C4024: 'IDDestroyTable' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11363): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(11363): warning C4024: 'NAMELookup' : different types for formal and actual parameter 9
+     1>..\mwadvt.c(11366): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11366): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11376): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11376): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11380): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11380): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11381): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11381): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11387): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11387): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(11388): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(11388): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12058): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(12058): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(12063): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12063): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12068): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12068): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12077): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12077): warning C4024: 'CompoundTextAddTextExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12084): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12084): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12089): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12089): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12091): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12091): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12110): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(12110): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(12115): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12115): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12120): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12120): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12129): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12129): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12136): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12136): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12141): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12141): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12142): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12142): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12268): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(12268): warning C4024: 'NAMELookup' : different types for formal and actual parameter 9
+     1>..\mwadvt.c(12271): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12271): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12278): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12278): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12282): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12282): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12283): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12283): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12299): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12299): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12300): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12300): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12327): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12327): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12328): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12328): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12775): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(12775): warning C4024: 'NAMELookup' : different types for formal and actual parameter 9
+     1>..\mwadvt.c(12778): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12778): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12798): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12798): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12803): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12803): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12804): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12804): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12877): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12877): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(12878): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(12878): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13064): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(13064): warning C4024: 'NIFReadEntries' : different types for formal and actual parameter 8
+     1>..\mwadvt.c(13067): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13067): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13087): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13087): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13090): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13090): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13091): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13091): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13105): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13105): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13106): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13106): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13636): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13636): warning C4024: 'CompoundTextAddParagraphExt' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13639): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13639): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13812): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13812): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13827): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13827): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13841): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13841): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13870): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13870): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13881): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13881): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13980): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13980): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(13995): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(13995): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14011): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14011): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14046): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14046): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14058): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14058): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14126): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14126): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14142): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14142): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14163): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14163): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14238): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwadvt.c(14238): warning C4024: 'CompoundTextCreate' : different types for formal and actual parameter 3
+     1>..\mwadvt.c(14247): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14247): warning C4024: 'CompoundTextDefineStyle' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14251): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14251): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14272): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14272): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14284): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14284): warning C4024: 'CompoundTextClose' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14285): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwadvt.c(14285): warning C4024: 'CompoundTextDiscard' : different types for formal and actual parameter 1
+     1>..\mwadvt.c(14632): warning C4267: 'function' : conversion from 'size_t' to 'WORD', possible loss of data
+     1>..\mwadvt.c(14641): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+         mwhotspot.c
+     1>..\mwhotspot.c(67): warning C4047: 'function' : 'DHANDLE *' differs in levels of indirection from 'HANDLE *'
+     1>..\mwhotspot.c(67): warning C4024: 'OSMemAlloc' : different types for formal and actual parameter 3
+     1>..\mwhotspot.c(70): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwhotspot.c(70): warning C4024: 'OSLockObject' : different types for formal and actual parameter 1
+     1>..\mwhotspot.c(85): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwhotspot.c(85): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwhotspot.c(86): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwhotspot.c(86): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwhotspot.c(96): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwhotspot.c(96): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwhotspot.c(97): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwhotspot.c(97): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwhotspot.c(114): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwhotspot.c(114): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwhotspot.c(115): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwhotspot.c(115): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+     1>..\mwhotspot.c(119): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwhotspot.c(119): warning C4024: 'OSUnlockObject' : different types for formal and actual parameter 1
+     1>..\mwhotspot.c(120): warning C4047: 'function' : 'DHANDLE' differs in levels of indirection from 'HANDLE'
+     1>..\mwhotspot.c(120): warning C4024: 'OSMemFree' : different types for formal and actual parameter 1
+         mwlist.c
+         mwstrjob.c
+         rulesmem.c
+         wildcard.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _VC80_UPGRADE=0x0700 /l"0x0409" /nologo /fo"x64\Debug\mwadvt.res" ..\mwadvt.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\nmwadvt.exe.embed.manifest.res" x64\Debug\nmwadvt_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"x64\Debug\nmwadvt.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\Compiler\11.0\061\cpp\lib\intel64" /LIBPATH:D:\notesapi_801_64bits\lib\mswin64 notes.lib notesai0.obj notes0.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\nmwadvt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"x64\Debug\mwadvt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x64\Debug\nmwadvt.lib" /MACHINE:X64 x64\Debug\mwadvt.res
+         x64\Debug\nmwadvt.exe.embed.manifest.res
+         x64\Debug\hnote2skip.obj
+         x64\Debug\mwadvt.obj
+         x64\Debug\mwhotspot.obj
+         x64\Debug\mwlist.obj
+         x64\Debug\mwstrjob.obj
+         x64\Debug\rulesmem.obj
+         x64\Debug\wildcard.obj
+         mwadvt.vcxproj -> D:\LPDEV\MailWatcher_Filter_394\mwadvt\x64\Debug\nmwadvt.exe
+       Manifest:
+         Deleting file "x64\Debug\nmwadvt.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\nmwadvt.exe.embed.manifest" /manifest x64\Debug\nmwadvt.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\nmwadvt.exe.embed.manifest.res" x64\Debug\nmwadvt_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"x64\Debug\nmwadvt.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\Compiler\11.0\061\cpp\lib\intel64" /LIBPATH:D:\notesapi_801_64bits\lib\mswin64 notes.lib notesai0.obj notes0.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\nmwadvt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"x64\Debug\mwadvt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x64\Debug\nmwadvt.lib" /MACHINE:X64 x64\Debug\mwadvt.res
+         x64\Debug\nmwadvt.exe.embed.manifest.res
+         x64\Debug\hnote2skip.obj
+         x64\Debug\mwadvt.obj
+         x64\Debug\mwhotspot.obj
+         x64\Debug\mwlist.obj
+         x64\Debug\mwstrjob.obj
+         x64\Debug\rulesmem.obj
+         x64\Debug\wildcard.obj
+         mwadvt.vcxproj -> D:\LPDEV\MailWatcher_Filter_394\mwadvt\x64\Debug\nmwadvt.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\mwadvt.unsuccessfulbuild".
+         Touching "x64\Debug\mwadvt.lastbuildstate".
+     1>Done Building Project "D:\LPDEV\MailWatcher_Filter_394\mwadvt\mwadvt.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.72
